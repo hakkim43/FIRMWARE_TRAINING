@@ -1,0 +1,40 @@
+A51 MACRO ASSEMBLER  PROG4                                                                07/14/2026 21:43:06 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\prog4.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE prog4.asm SET(SMALL) DEBUG PRINT(.\Listings\prog4.lst) OBJECT(.\Objects
+                      \prog4.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+                       2     
+0000 7810              3     MOV R0,#10H
+0002 7920              4     MOV R1,#20H
+0004 7A30              5     MOV R2,#30H
+                       6     
+0006 E9                7     MOV A,R1
+0007 F8                8     MOV R0,A
+                       9     
+0008 EA               10     MOV A,R2
+0009 F9               11     MOV R1,A
+                      12     
+000A E8               13     MOV A,R0
+000B FA               14     MOV R2,A
+                      15     
+                      16     END
+A51 MACRO ASSEMBLER  PROG4                                                                07/14/2026 21:43:06 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

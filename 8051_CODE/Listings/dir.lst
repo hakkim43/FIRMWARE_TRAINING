@@ -1,0 +1,33 @@
+A51 MACRO ASSEMBLER  DIR                                                                  07/20/2026 10:25:26 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\dir.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE dir.asm SET(SMALL) DEBUG PRINT(.\Listings\dir.lst) OBJECT(.\Objects\dir
+                      .obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0h
+0000                   2             main:
+0000 7825              3             MOV R0,#0X25
+0002 E8                4             MOV A, R0
+0003 F9                5             MOV R1,A
+0004 7590A5            6             MOV P1, #0XA5
+                       7             END
+A51 MACRO ASSEMBLER  DIR                                                                  07/20/2026 10:25:26 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+MAIN . . . . . . .  C ADDR   0000H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

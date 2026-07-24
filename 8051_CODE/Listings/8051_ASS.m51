@@ -1,0 +1,45 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    07/14/2026  21:47:40  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\prog5.obj TO .\Objects\8051_ASS PRINT (.\Listings\8051_ASS.m51)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\prog5.obj (PROG5)
+
+
+LINK MAP OF MODULE:  .\Objects\8051_ASS (PROG5)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0006H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\8051_ASS (PROG5)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        PROG5
+  C:0000H         LINE#         3
+  C:0001H         LINE#         4
+  C:0002H         LINE#         6
+  C:0003H         LINE#         7
+  C:0004H         LINE#         9
+  C:0005H         LINE#         10
+  -------         ENDMOD        PROG5
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0006H BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=6
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,3 @@
+".\Objects\dir.obj" 
+TO ".\Objects\direct" 
+PRINT(".\Listings\direct.m51")

@@ -1,0 +1,38 @@
+A51 MACRO ASSEMBLER  PROG2                                                                07/14/2026 21:34:33 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\prog2.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE prog2.asm SET(SMALL) DEBUG PRINT(.\Listings\prog2.lst) OBJECT(.\Objects
+                      \prog2.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+                       2     
+0000 7A55              3     MOV R2,#55H
+                       4     
+0002 EA                5     MOV A,R2
+0003 FB                6     MOV R3,A
+                       7     
+0004 EA                8     MOV A,R2
+0005 FC                9     MOV R4,A
+                      10     
+0006 EA               11     MOV A,R2
+0007 FD               12     MOV R5,A
+                      13     
+                      14     END
+A51 MACRO ASSEMBLER  PROG2                                                                07/14/2026 21:34:33 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
